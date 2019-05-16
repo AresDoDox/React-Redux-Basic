@@ -13,13 +13,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App ul,
-.App h2{
+.App-Container,
+.App-Container ul,
+.App-Container h2{
   text-align: left;
 }
-.App ul li{
+.App-Container ul li{
   cursor: pointer;
 }
-.App ul li:hover{
+.App-Container ul li:hover{
   color: blue;
 }
