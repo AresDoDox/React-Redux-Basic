@@ -5,11 +5,21 @@
 
 .App-header {
   background-color: rebeccapurple;
-  min-height: 100vh;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.App ul,
+.App h2{
+  text-align: left;
+}
+.App ul li{
+  cursor: pointer;
+}
+.App ul li:hover{
+  color: blue;
 }
